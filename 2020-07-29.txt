@@ -1,0 +1,20 @@
+-- TABLE: usuario
+
+CREATE TABLE `usuario` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES ('1', 'testeee', 'testeee@gmail.com', 'testt10');
+
+INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES ('2', 'ana clara', 'anaclara@gmail.com', 'anclac');
+
+INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES ('7', 'luis braga', 'luabraga@gmail.com', 'gc4r1');
+
+INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES ('16', 'teste teste', 'teste@teste', '123');
+
+
+
